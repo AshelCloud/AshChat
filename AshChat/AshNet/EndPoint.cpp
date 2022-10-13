@@ -1,5 +1,7 @@
 #include "EndPoint.h"
 
+EndPoint EndPoint::Any;
+
 EndPoint::EndPoint():
 	m_ipv4EndPoint()
 {

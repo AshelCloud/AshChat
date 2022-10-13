@@ -10,5 +10,7 @@ public:
 	~EndPoint();
 
 	sockaddr_in m_ipv4EndPoint;
+
+	static EndPoint Any;
 };
 

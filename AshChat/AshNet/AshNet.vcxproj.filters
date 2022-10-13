@@ -21,12 +21,21 @@
     <ClInclude Include="EndPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SocketInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AshNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Socket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="EndPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketInit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

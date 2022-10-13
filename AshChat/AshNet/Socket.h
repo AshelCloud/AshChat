@@ -1,5 +1,8 @@
 #pragma once
 
+#include <WS2tcpip.h>
+
+
 class EndPoint;
 
 enum class SocketType
@@ -12,7 +15,14 @@ class Socket
 {
 public:
 	Socket();
+	Socket(SocketType socketType);
 	~Socket();
+
+	//Handle
+	SOCKET m_fd;
+
+	//Overlapped I/O를 사용하기 위한 Overlapped 객체
+	WSAOVERLAPPED m_readOverlappedStruct;
 	
 	//bind, connet, listen, accept, close, send, recv
 public:
