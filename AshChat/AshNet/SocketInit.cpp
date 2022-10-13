@@ -10,3 +10,7 @@ SocketInit::SocketInit()
 	int result = WSAStartup(MAKEWORD(2, 2), &wsaData);
 	std::cout << "Startup code : " << result << std::endl;
 }
+
+void SocketInit::Touch()
+{
+}

@@ -143,11 +143,13 @@
   <ItemGroup>
     <ClInclude Include="AshNet.h" />
     <ClInclude Include="EndPoint.h" />
+    <ClInclude Include="Exception.h" />
     <ClInclude Include="Socket.h" />
     <ClInclude Include="SocketInit.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EndPoint.cpp" />
+    <ClCompile Include="Exception.cpp" />
     <ClCompile Include="Socket.cpp" />
     <ClCompile Include="SocketInit.cpp" />
   </ItemGroup>
